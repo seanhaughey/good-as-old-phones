@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Product View Controller-->
         <scene sceneID="Dqp-EK-yfC">
             <objects>
-                <viewController id="2Is-gf-HfE" sceneMemberID="viewController">
+                <viewController id="2Is-gf-HfE" customClass="ProductViewController" customModule="GoodAsOldPhones" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TMR-zE-SAv"/>
                         <viewControllerLayoutGuide type="bottom" id="auL-ZF-nJb"/>
@@ -17,10 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phone-fullscreen3" translatesAutoresizingMaskIntoConstraints="NO" id="ynf-BE-kMe">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ynf-BE-kMe">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1937 Desk Phone" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oL2-0g-lbz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Phone Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oL2-0g-lbz">
                                 <rect key="frame" x="10" y="97" width="345" height="40"/>
                                 <fontDescription key="fontDescription" name="DamascusBold" family="Damascus" pointSize="24"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -34,6 +34,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="productImageView" destination="ynf-BE-kMe" id="WWb-CU-D1D"/>
+                        <outlet property="productNameLabel" destination="oL2-0g-lbz" id="IAX-Hs-FLp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wwB-sB-Poi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -42,6 +46,5 @@
     </scenes>
     <resources>
         <image name="button-addtocart" width="158" height="41"/>
-        <image name="phone-fullscreen3" width="375" height="667"/>
     </resources>
 </document>
