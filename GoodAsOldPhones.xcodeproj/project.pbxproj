@@ -13,6 +13,7 @@
 		DA4CB8631C2377D800449488 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4CB8611C2377D800449488 /* LaunchScreen.storyboard */; };
 		DAB107E31C29AFF300BC9657 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB107E21C29AFF300BC9657 /* ProductViewController.swift */; };
 		DAB107E51C29B97400BC9657 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB107E41C29B97400BC9657 /* ContactViewController.swift */; };
+		DAFE35681C2AF27C003151B7 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE35671C2AF27C003151B7 /* ProductsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DA4CB8641C2377D800449488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAB107E21C29AFF300BC9657 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		DAB107E41C29B97400BC9657 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		DAFE35671C2AF27C003151B7 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DA4CB8641C2377D800449488 /* Info.plist */,
 				DAB107E21C29AFF300BC9657 /* ProductViewController.swift */,
 				DAB107E41C29B97400BC9657 /* ContactViewController.swift */,
+				DAFE35671C2AF27C003151B7 /* ProductsTableViewController.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAB107E31C29AFF300BC9657 /* ProductViewController.swift in Sources */,
+				DAFE35681C2AF27C003151B7 /* ProductsTableViewController.swift in Sources */,
 				DA4CB8591C2377D800449488 /* AppDelegate.swift in Sources */,
 				DAB107E51C29B97400BC9657 /* ContactViewController.swift in Sources */,
 			);
