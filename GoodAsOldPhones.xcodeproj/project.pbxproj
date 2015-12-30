@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DA2193481C346AEA00E41217 /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2193471C346AEA00E41217 /* CartTableViewController.swift */; };
+		DA21934A1C3476B300E41217 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2193491C3476B300E41217 /* Orders.swift */; };
+		DA21934C1C34777500E41217 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA21934B1C34777500E41217 /* Order.swift */; };
 		DA4CB8591C2377D800449488 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4CB8581C2377D800449488 /* AppDelegate.swift */; };
 		DA4CB85E1C2377D800449488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4CB85C1C2377D800449488 /* Main.storyboard */; };
 		DA4CB8601C2377D800449488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4CB85F1C2377D800449488 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		DA2193471C346AEA00E41217 /* CartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
+		DA2193491C3476B300E41217 /* Orders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		DA21934B1C34777500E41217 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		DA4CB8551C2377D800449488 /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4CB8581C2377D800449488 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA4CB85D1C2377D800449488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				DAFE35671C2AF27C003151B7 /* ProductsTableViewController.swift */,
 				DAFE35691C2B0D72003151B7 /* Product.swift */,
 				DA2193471C346AEA00E41217 /* CartTableViewController.swift */,
+				DA2193491C3476B300E41217 /* Orders.swift */,
+				DA21934B1C34777500E41217 /* Order.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -149,6 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAB107E31C29AFF300BC9657 /* ProductViewController.swift in Sources */,
+				DA21934A1C3476B300E41217 /* Orders.swift in Sources */,
+				DA21934C1C34777500E41217 /* Order.swift in Sources */,
 				DA2193481C346AEA00E41217 /* CartTableViewController.swift in Sources */,
 				DAFE35681C2AF27C003151B7 /* ProductsTableViewController.swift in Sources */,
 				DAFE356A1C2B0D72003151B7 /* Product.swift in Sources */,
