@@ -10,10 +10,15 @@ import UIKit
 
 class CartTableViewController: UITableViewController {
     
+    @IBOutlet weak var totalLabel: UILabel!
+    @IBOutlet weak var headerView: UIView!
+    
     var ordersInCart: [Order]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.tableHeaderView = headerView
 
      }
     
@@ -29,7 +34,11 @@ class CartTableViewController: UITableViewController {
         let order = Order()
         order.product = product
         
+        // Read orders from disk
+        
         ordersInCart = [order]
+        
+        updateTotal()
         
     }
 
@@ -61,6 +70,19 @@ class CartTableViewController: UITableViewController {
             // Delete the row from the data source
             ordersInCart?.removeAtIndex(indexPath.row)
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+            updateTotal()
+        }
+    }
+    
+    func updateTotal() -> Void {
+        if let orders = ordersInCart {
+            var total: Double = 0.0
+            for order in orders {
+                if let price = order.product?.price {
+                    total = total + price
+                }
+            }
+            totalLabel.text = String(total)
         }
     }
 
